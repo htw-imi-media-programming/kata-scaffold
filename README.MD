@@ -1,7 +1,7 @@
 # My Python Kata Scaffold
 
 There are Kata Scaffolds for many programming languages out there.
-I prefer to use my own Scaffold to my taste:
+I prefer to create my own Scaffold to my taste:
 
 - run python directly via PyCharm / venv
 - have program and script in a subdir named "kata"
@@ -12,6 +12,10 @@ I prefer to use my own Scaffold to my taste:
 
 ### Shell:
 
+installation:
+
+    pip install pytest
+    
 run
     ./testloop.sh
 
@@ -20,6 +24,7 @@ in a separate window.
 To activate the venv environment, source .venv/bin/activate:
 
    . .venv/bin/activate
+
 
 (This sets the path to use the python libraries/links in .venv )
 
